@@ -2,9 +2,9 @@
 //  AppDelegate.swift
 //  taskProject
 //
-//  Created by Kishore on 22/10/20.
-//  Copyright © 2020 Kishore. All rights reserved.
-//
+//  Created by apple on 16/08/22.
+//  
+
 
 import UIKit
 
