@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ListTVC" rowHeight="433" id="m6x-bm-Su9" customClass="ListTVC" customModule="taskProject" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ListTVC" rowHeight="433" id="m6x-bm-Su9" customClass="ListTVC" customModule="taskProject" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="433"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="m6x-bm-Su9" id="aTr-ys-Iz4">
@@ -50,7 +50,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8l-hn-hiM">
-                                                                    <rect key="frame" x="2" y="99.5" width="390" height="40"/>
+                                                                    <rect key="frame" x="2" y="96.5" width="390" height="40"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="a7o-He-u8N"/>
                                                                     </constraints>
@@ -65,9 +65,9 @@
                                                                 <constraint firstItem="W1n-FL-dOQ" firstAttribute="leading" secondItem="tU2-Bt-OBs" secondAttribute="leading" constant="2" id="JLq-4P-cVF"/>
                                                                 <constraint firstItem="W1n-FL-dOQ" firstAttribute="top" secondItem="tU2-Bt-OBs" secondAttribute="top" constant="20" id="Vxw-8n-mrJ"/>
                                                                 <constraint firstItem="B8l-hn-hiM" firstAttribute="leading" secondItem="tU2-Bt-OBs" secondAttribute="leading" constant="2" id="ogM-ew-xUh"/>
+                                                                <constraint firstAttribute="bottom" secondItem="B8l-hn-hiM" secondAttribute="bottom" constant="102.5" id="q8Y-0L-Dcs"/>
                                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="237" id="xPG-B6-bdu"/>
                                                                 <constraint firstAttribute="trailing" secondItem="W1n-FL-dOQ" secondAttribute="trailing" constant="2" id="yn8-au-SMD"/>
-                                                                <constraint firstItem="B8l-hn-hiM" firstAttribute="centerY" secondItem="tU2-Bt-OBs" secondAttribute="centerY" id="zir-XQ-x6F"/>
                                                             </constraints>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M78-mL-JaD">
